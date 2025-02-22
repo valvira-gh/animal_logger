@@ -1,0 +1,27 @@
+# __pycache__-kansiot ja .pyc-tiedostot (kääntäjän luomat välimuistit)
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment -kansiot
+venv/
+.env
+env/
+
+# Lokit ja tilapäistiedostot
+*.log
+*.sqlite3
+*.db
+
+# Dockerin volyymit ja konfiguraatiotiedostot
+docker/data/
+docker/postgres_data/
+
+# Python riippuvuuksien välimuisti
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pylint, mypy, pytest jne. tulokset
+.mypy_cache/
+.pytest_cache/
+.coverage
